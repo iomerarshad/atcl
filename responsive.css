@@ -96,7 +96,8 @@
         padding: 110px 0px;
     }
     .talk-right{
-        text-align: center;
+        /* text-align: center; */
+        padding-left: 7px;
     }
     .btn-contact-us{
         width: 40%;
@@ -110,7 +111,35 @@
     #why-us .box{
         margin-bottom: 4rem;
     }
-
+    #news-letter{
+        margin-bottom: -70px;
+        width: 90%;
+    }
+    #news-letter::before{
+        display: none;
+    }
+    .input-group .news-letter{
+        margin-left: -30px!important;
+    }
+    .left-input h5{
+        font-size: 25px!important;
+        margin-bottom: 1.5rem;
+    }
+    .right-input .input-group{
+        width: 110%;
+    }
+    .input-group .form-control{
+        margin-left: 5px;
+    }
+    #news-letter{
+        padding: 25px 10px;
+    }
+    .btn-contact-us{
+        margin-top: 20px;
+    }
+    #btn-about-center{
+        text-align: center;
+    }
 
 
 
