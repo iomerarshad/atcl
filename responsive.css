@@ -3,12 +3,26 @@
     .navbar-toggle i{
         color: black;
     }
+    .navbar .container{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .navbar-brand img{
+        width: 110px!important;
+    }
+    .navbar-collapse{
+        text-align: center;
+        padding-top: 50px;
+    }
 
     /* breadcumb */
     .breadcumb h4{
         font-size: 16px;
     }
-
+    #breadcumb{
+        margin-top: 130px;
+        margin-bottom: 65px;
+    }
 
     #main-cover{
         padding-bottom: 85px;
@@ -27,6 +41,12 @@
     .main-right img{
         display: none;
     }
+
+
+
+
+
+    /* about */
     .about-left h3{
         border-right: none!important;
         display: flex none;
@@ -41,6 +61,58 @@
         padding-top: 100px;
         padding-bottom: 100px;
     }
+    .tab-top h2{
+        font-size: 25px;
+    }
+    .nav-item-tab .nav-link-tab{
+        font-size: 13px;
+    }
+    .nav-tab .nav-link-tab.active{
+        font-size: 13px;
+    }
+    .tab-content{
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+    }
+    .tab-content p{
+        font-size: 18px;
+        
+    }
+    #why-us{
+        height: auto;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        text-align: -webkit-center;
+    }
+    .talk-left img{
+        width: 100%;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    .talk-right h3{
+        display: none;
+    }
+    #talk-us{
+        padding: 110px 0px;
+    }
+    .talk-right{
+        text-align: center;
+    }
+    .btn-contact-us{
+        width: 40%;
+        margin-top: 3rem;
+    }
+    .talk-left h3{
+        text-align: center;
+        font-size: 36px!important;
+        text-transform: capitalize;
+    }
+    #why-us .box{
+        margin-bottom: 4rem;
+    }
+
+
+
 
 
 
@@ -140,3 +212,35 @@
         margin-right: 0px!important;
     }
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (min-width: 768px) and (max-width: 1199.98px) { 
+
+    /* about page */
+    .talk-left h3{
+        display: none;
+    }
+  }
+
+  @media (min-width: 1399.98px) { 
+     /* about page */
+     .talk-left h3{
+        display: none;
+    }
+   }

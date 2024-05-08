@@ -1000,13 +1000,7 @@ h5 {
   color: white;
   font-size: 20px;
 }
-/* .nav-item-tab .nav-link-tab:hover {
-  padding: 10px 20px;
-  background: lightskyblue;
-  border-radius: 50px;
-  font-size: 20px;
-  text-transform: uppercase;
-} */
+
 .tab-content {
  padding-top: 80px!important;
  padding-bottom: 150px!important;
@@ -1058,6 +1052,7 @@ h5 {
   margin-top: 1rem;
   margin-bottom: 1.5rem;
 }
+
 .btn-contact-us {
   width: 25%;
   background: #172448 !important;
