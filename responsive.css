@@ -41,6 +41,15 @@
     .maps iframe{
         width: 105%!important;
     }
+    .contact-heading{
+        margin-top: 5rem!important;
+    }
+    #column-contact{
+        margin-right: 0px!important;
+    }
+    #column-contact2{
+        margin-left: 0px!important;
+      }
  }
 
 
@@ -79,5 +88,28 @@
     .about-right{
         padding-top: 100px;
         padding-bottom: 100px;
+    }
+
+
+
+
+
+
+
+     /* contact */
+     .map{
+        width: 105%!important;
+    }
+    .maps iframe{
+        width: 105%!important;
+    }
+    iframe{
+        width: 100%!important;
+    }
+    .contact-heading{
+        margin-top: 5rem!important;
+    }
+    #column-contact{
+        margin-right: 0px!important;
     }
  }
