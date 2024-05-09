@@ -1196,3 +1196,7 @@ h5 {
   text-transform: capitalize;
   margin-bottom: 2rem;
 }
+#gap-row img{
+  padding: 40px;
+  background: #1724488c;
+}
