@@ -43,6 +43,27 @@
     }
 
 
+/* Homepage */
+.btn-featured-service{
+    width: 50%;
+}
+.accordion-left img{
+    width: 100%;
+}
+#home-partner-mobile{
+    text-align: center;
+}
+#home-partner-mobile > .row:nth-child(-n+2) {
+    gap: 3rem;
+    /* Add your styling for the first two rows here */
+    /* For example, you can add margin-bottom to create space between rows */
+    margin-bottom: 20px;
+  }
+.content{
+    margin-bottom: 3rem;
+}
+
+
 
 
 
@@ -178,6 +199,41 @@
     #column-contact2{
         margin-left: 0px!important;
       }
+
+
+    /* Partners Page */
+    .partner-mobile-center{
+        text-align: center;
+    }
+    #gap-row{
+        gap: 4rem;
+    }
+    #partners-img h5{
+        font-size: 40px !important;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 2rem;
+   margin-left: 1rem;
+    }
+    #partners-img p{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+
+    /* Service page */
+    .main-service-top h3{
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 40px!important;
+    }
+    .main-service-top h6{
+        text-align: center;
+    }
+
+
+
+
  }
 
 
