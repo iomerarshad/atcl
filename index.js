@@ -57,17 +57,17 @@ function updateNavbar() {
   // Check if the user has scrolled past the navbar
   if (isHomepage) {
     // If it's the homepage, always use the white logo
-    logo.src = '/assets/img/Logo-white.png';
+    logo.src = 'assets/img/Logo-white.png';
   } else {
     // For other pages, change the logo and background color based on scroll
     if (scrolled > navbar.offsetTop) {
       navbar.classList.add('solid'); // Add solid class to change background color
       // Change the logo image source
-      logo.src = '/assets/img/Logo-white.png';
+      logo.src = 'assets/img/Logo-white.png';
     } else {
       navbar.classList.remove('solid'); // Remove solid class to revert to original background color
       // Change the logo image source back to the original
-      logo.src = '/assets/img/Logo-black.png';
+      logo.src = 'assets/img/Logo-black.png';
     }
   }
 }
