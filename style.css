@@ -199,7 +199,7 @@ h5 {
 
 /* About */
 #about-bg {
-  background-image: url(/assets/img/about-background.png);
+  background-image: url(assets/img/about-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -297,7 +297,7 @@ h5 {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url('/assets/img/how-bg.png');
+  background-image: url('assets/img/how-bg.png');
   /* Set background image */
   background-repeat: no-repeat;
   background-size: cover;
@@ -452,7 +452,7 @@ h5 {
 
 .how-we-do-area .how-we-do-right-content .how-we-do-items .how-we-do-card .line-shape {
   position: absolute;
-  background-image: url(/assets/img/linenew.png);
+  background-image: url(assets/img/linenew.png);
   background-repeat: no-repeat;
   height: 1px;
   width: 268px;
@@ -469,7 +469,7 @@ h5 {
 
 .how-we-do-area .how-we-do-right-content .how-we-do-items:first-child .how-we-do-card:last-child .line-shape {
   height: 181px;
-  background-image: url(/assets/img/linenew2.png);
+  background-image: url(assets/img/linenew2.png);
   background-repeat: round;
 
 }
@@ -481,7 +481,7 @@ h5 {
 .how-we-do-area .how-we-do-right-content .how-we-do-items:nth-child(2) .how-we-do-card:first-child .line-shape {
   right: auto;
   left: -84px;
-  background-image: url(/assets/img/linenew3.png);
+  background-image: url(assets/img/linenew3.png);
   background-repeat: round;
 }
 
@@ -505,7 +505,7 @@ h5 {
 
 /* Main services */
 #main-service-bg {
-  background-image: url(/assets/img/5.png);
+  background-image: url(assets/img/5.png);
 
   background-repeat: no-repeat;
   padding-top: 120px;
@@ -783,7 +783,7 @@ h5 {
   position: absolute;
   top: -10px;
   right: 25px;
-  content: url(/assets/img/news-letter-icon.png);
+  content: url(assets/img/news-letter-icon.png);
 
 }
 
@@ -793,7 +793,7 @@ h5 {
 /* Footer */
 .bg-footer-image {
   position: relative;
-  background-image: url('/assets/img/riyadh-3.png');
+  background-image: url('assets/img/riyadh-3.png');
   /* Replace 'your-image.jpg' with your actual image path */
   background-size: cover;
   background-position: center top;
