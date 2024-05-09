@@ -242,7 +242,7 @@
 }
 .how-we-do-area .how-we-do-right-content .how-we-do-items .how-we-do-card .line-shape {
     height: 131px;
-    background-image: url(/assets/img/line-shape-3.png);
+    background-image: url(assets/img/line-shape-3.png);
     background-repeat: round;
     width: 200px;
     right: -30px;
@@ -456,7 +456,6 @@ margin-bottom: 3rem;
 #btn-about-center{
     text-align: center;
 }
-
 
 
 
