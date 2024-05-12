@@ -47,6 +47,7 @@ function updateNavbar() {
   var scrolled = window.scrollY;
   var navbar = document.querySelector('.navbar');
   var logo = document.querySelector('.navbar-brand img');
+  var navbarToggler = document.querySelector('.mobile-icon');
 
   // Get the current page URL
   var currentPage = window.location.pathname;
@@ -58,16 +59,19 @@ function updateNavbar() {
   if (isHomepage) {
     // If it's the homepage, always use the white logo
     logo.src = 'assets/img/Logo-white.png';
+    navbarToggler.style.color = 'white';
   } else {
     // For other pages, change the logo and background color based on scroll
     if (scrolled > navbar.offsetTop) {
       navbar.classList.add('solid'); // Add solid class to change background color
       // Change the logo image source
       logo.src = 'assets/img/Logo-white.png';
+      navbarToggler.style.color = 'white';
     } else {
       navbar.classList.remove('solid'); // Remove solid class to revert to original background color
       // Change the logo image source back to the original
       logo.src = 'assets/img/Logo-black.png';
+      navbarToggler.style.color = 'black';
     }
   }
 }
@@ -78,12 +82,18 @@ window.addEventListener('scroll', updateNavbar);
 
 
 
+
+
+
+
+
 // Function to update navbar background color and link colors based on scroll position and page
 function updateNavbarLinks() {
   console.log('Update navbar function is called.');
   var scrolled = window.scrollY;
   var navbar = document.querySelector('.navbar');
   var links = document.querySelectorAll('.navbar-nav .nav-link');
+  var ctaLink = document.getElementById('call-action');
   var icons = document.querySelectorAll('.navbar-nav .nav-link i'); 
 
   // Get the current page URL
@@ -101,17 +111,20 @@ function updateNavbarLinks() {
     links.forEach(function(link) {
       link.style.color = 'white';
     });
+    ctaLink.style.color = 'white';
   } else {
     // For pages other than the homepage, set link colors to black initially
     links.forEach(function(link) {
       link.style.color = 'black';
     });
+    ctaLink.style.color = 'black';
 
     // If scrolled past the navbar, change link colors to white
     if (scrolled > navbar.offsetTop) {
       links.forEach(function(link) {
         link.style.color = 'white';
       });
+      ctaLink.style.color = 'white';
     }
   }
 
@@ -126,3 +139,7 @@ function updateNavbarLinks() {
 // Call the function on page load and scroll
 window.addEventListener('load', updateNavbarLinks);
 window.addEventListener('scroll', updateNavbarLinks);
+
+
+
+

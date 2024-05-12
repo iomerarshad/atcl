@@ -911,12 +911,42 @@ h5 {
   transform: scale(1.2);
 }
 
+.social-heading h3 {
+  font-size: 20px !important;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 700;
+  position: relative;
+}
+
+.social-heading h3::after {
+  position: absolute;
+  content: "";
+  right: 150px;
+  top: 13px;
+  width: 25px;
+  height: 2px;
+  background-color: white;
+}
 
 /* Footer End */
 
+/* Bottom-footer */
+.bottom-footer {
+  background: #172448;
+}
 
+.bottom-footer p {
+  font-size: 20px;
+  /* Font size ko apne requirement ke hisaab se adjust karein */
+  color: white;
+  /* Text color ko apne theme ke hisaab se adjust karein */
+  /* Add any additional styles as needed */
+}
 
-
+.footer-logo {
+  width: 65%;
+}
 
 
 
@@ -1237,8 +1267,8 @@ h5 {
 #partners-img img {
   /* width: 50%; */
   padding: 20px;
-    width: 70%;
-  
+  width: 70%;
+
 }
 
 /* #partners-img img:hover {
@@ -1256,23 +1286,27 @@ h5 {
 #gap-row img {
   /* padding: 40px; */
   border-radius: 15px;
-  
+
 
 }
-#gap-row .img-container{
-  
+
+#gap-row .img-container {
+
   background-color: #172448;
   border-radius: 15px;
   width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+
+
 }
-#gap-row .img-container img{
+
+#gap-row .img-container img {
   filter: brightness(0) invert(1);
 }
-#gap-row .img-container:hover img{
+
+#gap-row .img-container:hover img {
   filter: brightness(1) invert(0);
 }

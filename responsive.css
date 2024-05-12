@@ -1,5 +1,6 @@
 @media (max-width: 575.98px) { 
     /* navbar */
+    
     .navbar-toggle i{
         color: black;
     }
@@ -13,6 +14,14 @@
     .navbar-collapse{
         text-align: center;
         padding-top: 50px;
+        background: #172448;
+        padding: 20px 0px;
+    }
+    .navbar-nav .nav-link{
+        color: white!important;
+    }
+    .navbar-nav .nav-items{
+        justify-content: center;
     }
 
     /* breadcumb */
@@ -208,6 +217,9 @@
     #gap-row{
         gap: 4rem;
     }
+    #gap-row .col-lg-4{
+        text-align: -webkit-center;
+    }
     #partners-img h5{
         font-size: 40px !important;
     text-transform: capitalize;
@@ -284,6 +296,21 @@
     .how-we-do-items:last-child .circle-shape {
         display: none;
       }
+
+      /* footer */
+      .social-heading h3::after{
+        right: 240px;
+      }
+      .social-heading h3{
+        margin-bottom: 1.5rem;
+      }
+      #footer-logo{
+        text-align: center;
+      }
+      #copyright{
+        text-align: center;
+      }
+
 
 
  }
