@@ -142,4 +142,31 @@ window.addEventListener('scroll', updateNavbarLinks);
 
 
 
+// <!-- Drop-down link -->
+$(document).ready(function () {
+  $('.dropdown-menu').hide();
+  $('#navbarDropdown').hover(function () {
+    $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(500);
+  }, function () {
+    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+  });
+});
 
+
+
+
+// back to top
+var btn = $('#button-back-top');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
