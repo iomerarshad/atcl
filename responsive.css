@@ -573,6 +573,10 @@ margin-left: 1rem;
 
  @media (min-width: 768px) and (max-width: 1199.98px) { 
 
+/* home */
+.main-right img{
+    width: 100%;
+}
     /* about page */
     .talk-left h3{
         display: none;
