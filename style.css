@@ -1302,6 +1302,13 @@ h5 {
 
 
 }
+#gap-row .img-container:hover {
+
+  background-color: #e0e2e9;
+  
+
+
+}
 
 #gap-row .img-container img {
   filter: brightness(0) invert(1);
