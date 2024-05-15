@@ -512,7 +512,7 @@ h5 {
   background-image: url(assets/img/5.png);
 
   background-repeat: no-repeat;
-  padding-top: 120px;
+  padding-top: 40px;
   padding-bottom: 120px;
 }
 
@@ -595,7 +595,7 @@ h5 {
 }
 
 #accordion-content {
-  margin-top: 150px;
+  margin-top: 75px;
   margin-bottom: 150px;
 }
 
@@ -1328,6 +1328,7 @@ h5 {
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
+  text-decoration: none;
 }
 #button-back-top::after {
   content: "\f077";
@@ -1348,4 +1349,17 @@ h5 {
 #button-back-top.show {
   opacity: 1;
   visibility: visible;
+}
+
+.animated-image {
+  animation: slideUpDown 1s infinite alternate; /* Animation duration and repetition */
+}
+
+@keyframes slideUpDown {
+  0% {
+    transform: translateY(0); /* Starting position */
+  }
+  100% {
+    transform: translateY(20px); /* Ending position */
+  }
 }
