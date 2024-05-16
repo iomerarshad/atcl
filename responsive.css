@@ -595,21 +595,7 @@ margin-left: 1rem;
     .main-right img{
         width: 100%;
     }
-   }
-
-   @media (min-width : 1200px){
-    .main-left .btn{
-        width: 25%;
-    }
-
-
-    .how-we-do-area {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        /* Center the section horizontally */
-      }
     
-      .how-we-do-area .custom-container {
-        padding: 0 15px; /* Add some padding to the container to prevent content from touching the edges */
-      }
    }
+
+  
