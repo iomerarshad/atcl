@@ -1,3 +1,5 @@
+
+
 @media (max-width: 575.98px) { 
     /* navbar */
     
@@ -37,7 +39,7 @@
         padding-bottom: 85px;
     }
     .main-left h2{
-        font-size: 44px;
+        font-size: 65px;
     }
     .main-left p{
         font-size: 13px;
@@ -82,6 +84,9 @@
   }
 .content{
     margin-bottom: 3rem;
+}
+.custom-box{
+    text-align: center;
 }
 
 
