@@ -138,7 +138,6 @@ h5 {
 
 #call-action i:hover {
   scale: 1.5;
-
   transform: rotate(0deg);
 }
 
@@ -207,7 +206,6 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -407,7 +405,6 @@ h5 {
   font-size: 17px;
   font-weight: 500;
   line-height: 1;
-
 }
 
 .how-we-do-card .how-we-do-content h4 {
@@ -510,7 +507,6 @@ h5 {
 /* Main services */
 #main-service-bg {
   background-image: url(assets/img/5.png);
-
   background-repeat: no-repeat;
   padding-top: 40px;
   padding-bottom: 120px;
@@ -884,7 +880,6 @@ h5 {
 
 .footer-links a {
   color: white;
-
   text-decoration: none;
 }
 
@@ -1302,11 +1297,10 @@ h5 {
 
 
 }
+
 #gap-row .img-container:hover {
 
   background-color: #e0e2e9;
-  
-
 
 }
 
@@ -1330,13 +1324,14 @@ h5 {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  transition: background-color .3s, 
+  transition: background-color .3s,
     opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
   text-decoration: none;
 }
+
 #button-back-top::after {
   content: "\f077";
   font-family: FontAwesome;
@@ -1346,27 +1341,34 @@ h5 {
   line-height: 50px;
   color: #fff;
 }
+
 #button-back-top:hover {
   cursor: pointer;
   background-color: #333;
 }
+
 #button-back-top:active {
   background-color: #555;
 }
+
 #button-back-top.show {
   opacity: 1;
   visibility: visible;
 }
 
 .animated-image {
-  animation: slideUpDown 1s infinite alternate; /* Animation duration and repetition */
+  animation: slideUpDown 1s infinite alternate;
+  /* Animation duration and repetition */
 }
 
 @keyframes slideUpDown {
   0% {
-    transform: translateY(0); /* Starting position */
+    transform: translateY(0);
+    /* Starting position */
   }
+
   100% {
-    transform: translateY(20px); /* Ending position */
+    transform: translateY(20px);
+    /* Ending position */
   }
 }
