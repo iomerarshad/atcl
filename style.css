@@ -907,6 +907,7 @@ h5 {
 }
 
 .social-heading h3 {
+ 
   font-size: 20px !important;
   color: white;
   text-transform: capitalize;
@@ -915,6 +916,7 @@ h5 {
 }
 
 .social-heading h3::after {
+  display: none;
   position: absolute;
   content: "";
   right: 150px;
