@@ -970,3 +970,47 @@
     font-size: 3vw;
 }
 }
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px){
+    .main-right img{
+        width: 100%
+    }
+    .main-left h2{
+        font-size: 7vw;
+    }
+    .main-left p{
+        font-size: 1.3vw;
+    }
+    .main-left .btn{
+        width: 30%;
+    }
+    .btn-featured-service{
+        width: 25%;
+    }
+    .accordion-left img{
+        width: 215%;
+    }
+    #copyright p{
+        font-size: 1.2vw;
+    }
+    .footer-mobile-logo{
+        width: 80%;
+    }
+    .social-heading h3::after{
+        display: none;
+    }
+    .talk-left h3{
+        display: none;
+    }
+    .talk-right p{
+        font-size: 1.3vw;
+    }
+    .btn-contact-us{
+        width: 35%;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .talk-left h3{
+        display: none;
+    }
+}
